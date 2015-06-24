@@ -1,4 +1,4 @@
-# Queuer
+# Queuer [![Build Status](https://travis-ci.org/RobinBressan/queuer.js.svg?branch=master)](https://travis-ci.org/RobinBressan/queuer.js)
 
 Run easily queue of tasks.
 
