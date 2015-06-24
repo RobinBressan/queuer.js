@@ -64,11 +64,11 @@ queue(initialPayload) // You can pass an initial payload to the queue
 
 ## Dealing with events
 
-The queue is an event emitter. That means you can emit or listen events on it. The queue already emit some events:
+The queue is an event emitter. That means you can emit or listen events on it. The queue already emits some events:
 
 * `EVENT_TASK_START`: A task was started.
 * `EVENT_TASK_STOP`: A task was stopped.
-* `EVENT_TASK_START`: A task threw an error. 
+* `EVENT_TASK_ERROR`: A task threw an error. 
 * `EVENT_CANCEL`: The queue was canceled.
 
 To register an event listener use `on(event, listener)` or `once(event, listener)` method on the queue:
