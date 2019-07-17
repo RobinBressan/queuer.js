@@ -58,7 +58,7 @@ queue(initialPayload) // You can pass an initial payload to the queue
         // the payload is the result returned by the last task
     })
     .catch(function(error) {
-        // an error occured, the queue was stopped
+        // an error occurred, the queue was stopped
     });
 ```
 
